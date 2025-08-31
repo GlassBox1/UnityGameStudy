@@ -51,6 +51,7 @@ public abstract class BaseVillage : MonoBehaviour ,IVillage
     public void LevelChanged()
     {
         return;
+        //test;
     }
 
 }
