@@ -13,6 +13,6 @@ public interface IVillage
     //Village Manage
     void LevelUp();
     void LevelDown();
-    void OnDayNightChange();
-    void OnLevelChanged();
+    void DayNightChange();
+    void LevelChanged();
 }

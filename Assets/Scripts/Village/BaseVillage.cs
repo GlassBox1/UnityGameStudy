@@ -1,6 +1,15 @@
 using UnityEngine;
 
 
+public enum VillageType
+{
+    Default,
+    Snow,
+    Water,
+    Lava
+
+}
+
 public abstract class BaseVillage : MonoBehaviour ,IVillage
 {
 
@@ -34,12 +43,12 @@ public abstract class BaseVillage : MonoBehaviour ,IVillage
         if(village_level!=0)
             village_level -= 1;
     }
-    public void OnDayNightChange()
+    public void DayNightChange()
     {
        
     }
 
-    public void OnLevelChanged()
+    public void LevelChanged()
     {
         return;
     }
