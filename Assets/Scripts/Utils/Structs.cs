@@ -6,12 +6,3 @@ public enum DayNightCycle
     Night
 }
 
-
-public enum VillageType
-{
-    Default,
-    Snow,
-    Water,
-    Lava
-
-}

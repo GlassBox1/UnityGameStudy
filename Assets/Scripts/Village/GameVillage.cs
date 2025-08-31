@@ -23,4 +23,6 @@ public class GameVillage : BaseVillage
         VillageLevel = Level;
     }
 
+    //Event / 마을 레벨 올랐을 경우 이벤트 호출
+
 }
